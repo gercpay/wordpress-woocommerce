@@ -1,0 +1,218 @@
+.wcp-widget-container, .wcp-widget-overlay {
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	top: 0;
+	left: 0
+}
+
+.wcp-widget-open {
+	padding-right: 15px;
+	overflow: hidden
+}
+
+.wcp-widget-container {
+	z-index: 9997;
+	background: 0 0
+}
+
+.wcp-frame-wrapper {
+	background: 0 0;
+	z-index: 9997;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.wcp-widget-overlay {
+	z-index: 9997;
+	height: 2em;
+	width: 2em;
+	overflow: show;
+	margin: auto;
+}
+
+.wcp-widget-overlay:before {
+	content: '';
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5)
+}
+
+.wcp-widget-overlay.white:before {
+	background-color: rgba(255, 255, 255, 1)
+}
+
+.wcp-widget-overlay.loader:not(:required) {
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0
+}
+
+.wcp-widget-overlay.loader:not(:required):after {
+	content: '';
+	display: block;
+	font-size: 15px;
+	width: 1em;
+	height: 1em;
+	margin-top: -.5em;
+	-webkit-animation: spinner 1.5s infinite linear;
+	-moz-animation: spinner 1.5s infinite linear;
+	-ms-animation: spinner 1.5s infinite linear;
+	-o-animation: spinner 1.5s infinite linear;
+	animation: spinner 1.5s infinite linear;
+	border-radius: .5em;
+	-webkit-box-shadow: rgba(0, 0, 0, .75) 1.5em 0 0 0, rgba(0, 0, 0, .75) 1.1em 1.1em 0 0, rgba(0, 0, 0, .75) 0 1.5em 0 0, rgba(0, 0, 0, .75) -1.1em 1.1em 0 0, rgba(0, 0, 0, .5) -1.5em 0 0 0, rgba(0, 0, 0, .5) -1.1em -1.1em 0 0, rgba(0, 0, 0, .75) 0 -1.5em 0 0, rgba(0, 0, 0, .75) 1.1em -1.1em 0 0;
+	box-shadow: rgba(200, 200, 200, 1) 1.5em 0 0 0, rgba(200, 200, 200, 1) 1.1em 1.1em 0 0, rgba(200, 200, 200, 1) 0 1.5em 0 0, rgba(200, 200, 200, 1) -1.1em 1.1em 0 0, rgba(200, 200, 200, 1) -1.5em 0 0 0, rgba(200, 200, 200, 1) -1.1em -1.1em 0 0, rgba(200, 200, 200, 1) 0 -1.5em 0 0, rgba(200, 200, 200, 1) 1.1em -1.1em 0 0
+}
+
+@-webkit-keyframes spinner {
+	0% {
+		-webkit-transform: rotate(0);
+		-moz-transform: rotate(0);
+		-ms-transform: rotate(0);
+		-o-transform: rotate(0);
+		transform: rotate(0)
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg)
+	}
+}
+
+@-moz-keyframes spinner {
+	0% {
+		-webkit-transform: rotate(0);
+		-moz-transform: rotate(0);
+		-ms-transform: rotate(0);
+		-o-transform: rotate(0);
+		transform: rotate(0)
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg)
+	}
+}
+
+@-o-keyframes spinner {
+	0% {
+		-webkit-transform: rotate(0);
+		-moz-transform: rotate(0);
+		-ms-transform: rotate(0);
+		-o-transform: rotate(0);
+		transform: rotate(0)
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg)
+	}
+}
+
+@keyframes spinner {
+	0% {
+		-webkit-transform: rotate(0);
+		-moz-transform: rotate(0);
+		-ms-transform: rotate(0);
+		-o-transform: rotate(0);
+		transform: rotate(0)
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg)
+	}
+}
+
+.wcp-container-scroll-fix {
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch
+}
+
+.wcp-frame-scroll-fix {
+	position: initial !important
+}
+
+.wcp-widget-frame.secure {
+	background: white;
+	padding: 8px;
+}
+
+.wcp-frame-wrapper {
+	max-width: 480px;
+	min-width: 310px;
+	max-height: 90%;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	position: relative;
+	font-weight: 400;
+	margin: 3% auto;
+	opacity: 0;
+}
+
+.wcp-frame-wrapper-show {
+	opacity: 1;
+	transition: opacity 200ms;
+}
+
+.wcp-close-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	background: transparent;
+	border-radius: 20%;
+	text-decoration: none;
+	color: #6d6d6d;
+	width: 30px;
+	height: 30px;
+	top: 10px;
+	right: 18px;
+}
+
+.wcp-close-btn:hover,
+.wcp-close-btn:after {
+	text-decoration: none;
+}
+
+.wcp-widget-frame {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	z-index: 9999;
+}
+
+@media (min-width: 700px) {
+	.wcp-close-btn {
+		padding: 0;
+	}
+}
+
+@media (max-width: 505px) {
+	.wcp-frame-wrapper {
+		max-width: 96%;
+	}
+
+	.wcp-close-btn {
+		padding: 0;
+	}
+}

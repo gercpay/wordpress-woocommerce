@@ -1,0 +1,254 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GercPay Payment Gateway for WooCommerce\n"
+"POT-Creation-Date: 2023-09-11 12:38+0300\n"
+"PO-Revision-Date: 2023-09-11 12:41+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;esc_html__\n"
+"X-Poedit-SearchPath-0: gercpay-for-woocommerce.php\n"
+
+#: gercpay-for-woocommerce.php:25
+msgid "GercPay for WooCommerce"
+msgstr "GercPay для WooCommerce"
+
+#: gercpay-for-woocommerce.php:26
+msgid "GercPay Payment Gateway for WooCommerce."
+msgstr "Платежный шлюз GercPay для WooCommerce."
+
+#: gercpay-for-woocommerce.php:216
+msgid ""
+"A payment service that allows you to accept payments with Visa/MasterCard "
+"payment cards and GooglePay/ApplePay mobile wallets"
+msgstr ""
+"Платежный сервис, который позволяет принимать оплату платежными карточками "
+"Visa/MasterCard и мобильными кошельками GooglePay/ApplePay"
+
+#: gercpay-for-woocommerce.php:290
+#, php-format
+msgid ""
+"The minimum PHP version required for GercPay is %1$s. You are running %2$s."
+msgstr ""
+"Минимальная версия PHP, необходимая для GercPay, составляет %1$s. Вы "
+"используете %2$s."
+
+#: gercpay-for-woocommerce.php:296
+msgid "WooCommerce needs to be activated."
+msgstr "WooCommerce необходимо активировать."
+
+#: gercpay-for-woocommerce.php:301
+#, php-format
+msgid ""
+"The minimum WooCommerce version required for GercPay is %1$s. You are "
+"running %2$s."
+msgstr ""
+"Минимальная версия WooCommerce, необходимая для GercPay, составляет %1$s. Вы "
+"используете %2$s."
+
+#: gercpay-for-woocommerce.php:316
+msgid "Enable/Disable"
+msgstr "Включить/Выключить"
+
+#: gercpay-for-woocommerce.php:318
+msgid "Enable GercPay Payment Module"
+msgstr "Включить платёжный модуль GercPay"
+
+#: gercpay-for-woocommerce.php:320
+msgid "Show in the Payment List as a payment option"
+msgstr "Показать в списке платежей как вариант оплаты"
+
+#: gercpay-for-woocommerce.php:323
+msgid "GercPay Widget"
+msgstr "Виджет GercPay"
+
+#: gercpay-for-woocommerce.php:325
+msgid "Enable GercPay Widget"
+msgstr "Включить виджет GercPay"
+
+#: gercpay-for-woocommerce.php:327
+msgid "Use a GercPay Widget instead separate checkout page"
+msgstr ""
+"Использовать виджет GercPay вместо отдельной страницы оформления заказа"
+
+#: gercpay-for-woocommerce.php:330
+msgid "Show Logo"
+msgstr "Отображать логотип"
+
+#: gercpay-for-woocommerce.php:332
+msgid "Show the GercPay logo in the Payment Method section for the user"
+msgstr ""
+"Показывать логотип GercPay в разделе \"Способ оплаты\" для пользователя"
+
+#: gercpay-for-woocommerce.php:334
+msgid "Tick to show GercPay logo"
+msgstr "Отметьте, чтобы показывать логотип GercPay"
+
+#: gercpay-for-woocommerce.php:338
+msgid "Title in the Payment List"
+msgstr "Наименование в списке способов оплаты"
+
+#: gercpay-for-woocommerce.php:340
+msgid "Title in the list of available payment methods"
+msgstr "Наименование в списке доступных способов оплаты"
+
+#: gercpay-for-woocommerce.php:345
+msgid "Merchant Account"
+msgstr "Идентификатор торговца"
+
+#: gercpay-for-woocommerce.php:347 gercpay-for-woocommerce.php:353
+msgid "Given to Merchant by GercPay"
+msgstr "Предоставляется торговцу системой GercPay"
+
+#: gercpay-for-woocommerce.php:351
+msgid "Secret key"
+msgstr "Секретный ключ"
+
+#: gercpay-for-woocommerce.php:357
+msgid "Payment completed order status"
+msgstr "Статус заказа успешного платежа"
+
+#: gercpay-for-woocommerce.php:361
+msgid "The default order status after successful payment."
+msgstr "Статус заказа по умолчанию после успешного платежа."
+
+#: gercpay-for-woocommerce.php:365
+msgid "Payment declined order status"
+msgstr "Статус заказа отклонённого платежа"
+
+#: gercpay-for-woocommerce.php:369
+msgid "Order status when payment was declined."
+msgstr "Статус заказа при отклонении платежа."
+
+#: gercpay-for-woocommerce.php:373
+msgid "Payment refunded order status"
+msgstr "Статус заказа возвращённого платежа"
+
+#: gercpay-for-woocommerce.php:377
+msgid "Order status when payment was refunded."
+msgstr "Статус заказа при возврате платежа."
+
+#: gercpay-for-woocommerce.php:381
+msgid "System url"
+msgstr "Системный URL"
+
+#: gercpay-for-woocommerce.php:383
+msgid "Default url - https://api.gercpay.com.ua/"
+msgstr "URL по умолчанию - https://api.gercpay.com.ua/"
+
+#: gercpay-for-woocommerce.php:388 gercpay-for-woocommerce.php:392
+msgid "Successful payment redirect URL"
+msgstr "URL перенаправления при успешном платеже"
+
+#: gercpay-for-woocommerce.php:389 gercpay-for-woocommerce.php:397
+#: gercpay-for-woocommerce.php:405 gercpay-for-woocommerce.php:413
+msgid "Standard Page"
+msgstr "Стандартная страница"
+
+#: gercpay-for-woocommerce.php:396 gercpay-for-woocommerce.php:400
+msgid "Redirect URL in case of failure to make payment"
+msgstr "URL перенаправления при отклонении платежа"
+
+#: gercpay-for-woocommerce.php:404 gercpay-for-woocommerce.php:408
+msgid "Redirect URL failed to pay"
+msgstr "URL перенаправления при неудачном платеже"
+
+#: gercpay-for-woocommerce.php:412
+msgid "URL of the result information"
+msgstr "URL для информации об оплате"
+
+#: gercpay-for-woocommerce.php:416
+msgid ""
+"The URL to which will receive information about the result of the payment"
+msgstr "URL, по которому будет приходить информация о результате платежа"
+
+#: gercpay-for-woocommerce.php:420
+msgid "Payment page language"
+msgstr "Язык страницы оплаты"
+
+#: gercpay-for-woocommerce.php:424
+msgid "GercPay payment page language"
+msgstr "Язык страницы оплаты GercPay"
+
+#: gercpay-for-woocommerce.php:434
+msgid "Payment gateway"
+msgstr "Платёжный шлюз"
+
+#: gercpay-for-woocommerce.php:435
+msgid "Return to payments"
+msgstr "Назад к платежам"
+
+#: gercpay-for-woocommerce.php:452
+msgid "Settings"
+msgstr "Настройки"
+
+#: gercpay-for-woocommerce.php:468
+msgid "Support"
+msgstr "Поддержка"
+
+#: gercpay-for-woocommerce.php:483
+msgid ""
+"Thank you for your order, you will now be redirected to the GercPay payment "
+"page"
+msgstr ""
+"Спасибо за ваш заказ, сейчас вы будете перенаправлены на страницу оплаты "
+"GercPay"
+
+#: gercpay-for-woocommerce.php:502 gercpay-for-woocommerce.php:847
+msgid ""
+"An error has occurred during payment. Please contact us to ensure your order "
+"has submitted."
+msgstr ""
+"Произошла ошибка при оплате. Свяжитесь с нами, чтобы убедиться, что ваш "
+"заказ подтверждён."
+
+#: gercpay-for-woocommerce.php:506
+msgid "An error has occurred during payment. Merchant data is incorrect."
+msgstr "Произошла ошибка при оплате. Данные продавца неверны."
+
+#: gercpay-for-woocommerce.php:512
+msgid "An error has occurred during payment. Signature is not valid."
+msgstr "Произошла ошибка при оплате. Подпись недействительна."
+
+#: gercpay-for-woocommerce.php:560
+msgid ""
+"Thank you for shopping with us. Your account has been charged and your "
+"transaction is successful."
+msgstr ""
+"Спасибо за покупку. С вашего счета была снята оплата, и ваша транзакция "
+"прошла успешно."
+
+#: gercpay-for-woocommerce.php:805
+msgid "GercPay - Payment Visa, Mastercard, GooglePay, ApplePay"
+msgstr "GercPay - Оплата Visa, Mastercard, GooglePay, ApplePay"
+
+#: gercpay-for-woocommerce.php:814
+msgid "Payment Visa, Mastercard, GooglePay, ApplePay"
+msgstr "Оплата Visa, Mastercard, GooglePay, ApplePay"
+
+#: gercpay-for-woocommerce.php:924
+msgid "Payment by card on the site"
+msgstr "Оплата картой на сайте"
+
+#: gercpay-for-woocommerce.php:992
+msgid "Default status"
+msgstr "Статус по умолчанию"
+
+#: gercpay-for-woocommerce.php:1010
+msgid "UA"
+msgstr "Украинский"
+
+#: gercpay-for-woocommerce.php:1011
+msgid "RU"
+msgstr "Русский"
+
+#: gercpay-for-woocommerce.php:1012
+msgid "EN"
+msgstr "Английский"
