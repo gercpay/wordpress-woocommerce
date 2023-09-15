@@ -157,7 +157,7 @@ function woocommerce_gercpay_init() {
 		 *
 		 * @var string
 		 */
-		protected $url = 'https://api.gercpay.com.ua/';
+		protected $url = 'https://api.gercpay.com.ua/api/';
 
 		const GERCPAY_SITE_URL = 'https://gercpay.com.ua';
 
@@ -380,8 +380,8 @@ function woocommerce_gercpay_init() {
 				'gercpay_url'        => array(
 					'title'       => __( 'System url', 'gercpay-for-woocommerce' ),
 					'type'        => 'text',
-					'description' => __( 'Default url - https://api.gercpay.com.ua/', 'gercpay-for-woocommerce' ),
-					'default'     => 'https://api.gercpay.com.ua/',
+					'description' => __( 'Default url - https://api.gercpay.com.ua/api/', 'gercpay-for-woocommerce' ),
+					'default'     => 'https://api.gercpay.com.ua/api/',
 					'desc_tip'    => true,
 				),
 				'approve_url'           => array(

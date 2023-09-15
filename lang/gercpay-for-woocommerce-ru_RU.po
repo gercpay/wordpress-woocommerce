@@ -140,8 +140,8 @@ msgid "System url"
 msgstr "Системный URL"
 
 #: gercpay-for-woocommerce.php:383
-msgid "Default url - https://api.gercpay.com.ua/"
-msgstr "URL по умолчанию - https://api.gercpay.com.ua/"
+msgid "Default url - https://api.gercpay.com.ua/api/"
+msgstr "URL по умолчанию - https://api.gercpay.com.ua/api/"
 
 #: gercpay-for-woocommerce.php:388 gercpay-for-woocommerce.php:392
 msgid "Successful payment redirect URL"

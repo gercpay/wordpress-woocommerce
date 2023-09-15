@@ -30,7 +30,7 @@ window.addEventListener(
 
 Gercpay.prototype.build         = 1;
 Gercpay.prototype.name          = 'WCPWidget';
-Gercpay.prototype.defaultTarget = 'https://api.gercpay.com.ua';
+Gercpay.prototype.defaultTarget = 'https://api.gercpay.com.ua/api';
 
 Gercpay.prototype.run = function (options) {
 	this.postFields = options;
