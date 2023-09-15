@@ -223,10 +223,10 @@ function woocommerce_gercpay_init() {
 			$this->init_settings();
 
 			if ( 'yes' === $this->settings['showlogo'] ) {
-				$this->icon = GERCPAY_IMGDIR . 'gerc-logo.svg';
+				$this->icon = GERCPAY_IMGDIR . 'gercpay.svg';
 			}
 
-			$this->img  = GERCPAY_IMGDIR . 'gerc-logo.svg';
+			$this->img  = GERCPAY_IMGDIR . 'gercpay.svg';
 			$this->lang = $this->settings['language'];
 
 			$this->approve_url  = $this->settings['approve_url'];
@@ -434,7 +434,7 @@ function woocommerce_gercpay_init() {
 			echo '<h3>' . esc_html__( 'Payment gateway', 'gercpay-for-woocommerce' );
 			wc_back_link( __( 'Return to payments', 'woocommerce' ), admin_url( 'admin.php?page=wc-settings&tab=checkout' ) );
 			echo '</h3>';
-			echo '<a href="' . esc_html( self::GERCPAY_SITE_URL ) . '"><img src="' . esc_attr( GERCPAY_IMGDIR . 'gerc-logo.svg' ) . '" alt="GercPay"></a>';
+			echo '<a href="' . esc_html( self::GERCPAY_SITE_URL ) . '"><img src="' . esc_attr( GERCPAY_IMGDIR . 'gercpay.svg' ) . '" alt="GercPay"></a>';
 			echo '<table class="form-table">';
 			// Generate the HTML For the settings form.
 			$this->generate_settings_html();
